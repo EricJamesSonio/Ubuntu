@@ -10,3 +10,13 @@
 | 🚀 **Move system files**         | `sudo mv myapp.conf /etc/nginx/`          | Move files into protected system dirs      |
 | 🧠 **Run a service manually**    | `sudo service nginx start`                | Start or stop older-style services         |
 | 🔑 **Run as root (full access)** | `sudo su`                                 | Switch to full root user (exit to go back) |
+
+< ------------------------ BONUS ---------------------->
+
+if u want to view the port of the container: 
+--> curl http://localhost:3000
+
+if u want to go directly in that port:
+make sure to install wslu first! 
+--> sudo apt install wslu
+--> wslview http://localhost:3000
